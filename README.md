@@ -2,7 +2,7 @@
 
 **Palette Muse** is a beautifully crafted web app that helps you explore, collect, and get inspired by curated color palettes. Perfect for designers, developers, and creatives looking for the perfect color combination!
 
-![Palette Muse Screenshot](https://via.placeholder.com/800x500/FFD700/000000?text=Palette+Muse+Screenshot)
+![Palette Muse]([https://via.placeholder.com/800x500/FFD700/000000?text=Palette+Muse+Screenshot)](https://bomdotmilk.github.io/Palette_Muse/)
 
 ---
 
