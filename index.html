@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Palette Muse | Curated Color Inspiration</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Palette Muse</h1>
+            <p class="subtitle">Discover and collect beautiful color palettes
+                for your creative projects</p>
+                
+            <div class="search-container">
+                <input type="text" id="searchInput"
+                    placeholder="Search by tags or colors (e.g., 'dark' or '#fefcfb')">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="controls">
+                <button class="btn active" data-filter="trending">
+                    <i class="fas fa-fire"></i> Trending
+                </button>
+                <button class="btn" data-filter="popular">
+                    <i class="fas fa-heart"></i> Popular
+                </button>
+                <button class="btn" data-filter="new">
+                    <i class="fas fa-star"></i> New
+                </button>
+                <button class="btn" data-filter="random">
+                    <i class="fas fa-random"></i> Random
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <div class="palettes-container" id="palettesContainer">
+                <!-- Palettes will be loaded here -->
+            </div>
+        </main>
+
+        <div class="toast" id="toast">Color copied to clipboard!</div>
+
+        <footer>
+            Made with ♥ for designers & developers • Palette Muse 2025
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
