@@ -36,7 +36,7 @@ palette-muse/
 ## 🧪 How to Run
 
 ```bash
-git clone https://github.com/yourusername/palette-muse.git
+git clone https://github.com/bomdotmilk/palette-muse.git
 cd palette-muse
 ```
 open index.html
